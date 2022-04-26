@@ -139,6 +139,10 @@ img {
     margin-left: 50px;
 }
 
+/* .contact-item{
+    align-items: center;
+} */
+
 
 .menu-link:hover,
 .menu-link:focus {
@@ -154,10 +158,12 @@ img {
     padding-top: 32px;
     padding-bottom: 32px;
     color: inherit;
+    align-items: center;
 }
 
 .contact-icon{
-    fill: currentColor;}
+    fill: currentColor;
+    margin-right: 10px;}
 
 .current {
     color: var(--accent-color)

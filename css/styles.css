@@ -9,6 +9,8 @@
     --light-background-color: #F5F4FA;
     --main-background-color: #ffffff;
     --hero-btn-color: #188CE8;
+    --color-icon: #afb1b8;
+    --background-footer-link-color: rgba(255, 255, 255, 0.1);
     }
 
 
@@ -154,6 +156,9 @@ img {
     color: inherit;
 }
 
+.contact-icon{
+    fill: currentColor;}
+
 .current {
     color: var(--accent-color)
 }
@@ -234,7 +239,7 @@ img {
     margin-left: 30px;
 }
 
-.advantage-item::before {
+/* .advantage-item::before {
     display: block;
     content: "";
     height: 120px;
@@ -259,7 +264,7 @@ img {
 
 .icon-astronaut::before{
     background-image: url(../img/astronaut.svg);
-}
+} */
 
 .section-title {
     font-size: 14px;
@@ -340,6 +345,31 @@ border-radius: 0px 0px 4px 4px;
     line-height: 1.19;
     text-align: center;
     margin-bottom: 30px;
+}
+
+.team-soc-list {
+display: flex;
+justify-content: center;
+}
+
+.team-soc-item +.team-soc-item{
+    margin-left: 10px;
+}
+
+
+.team-soc-link {
+   width: 44px;
+   height: 44px;
+   align-items: center;
+   justify-content: center;
+   background-color: var(--main-background-color); 
+   border-radius: 50%;
+   display: flex;
+   fill:var(--color-icon) ;
+}
+
+.team-soc-icon{
+    fill:currentColor;
 }
 
 /* ----------------footer---------------- */

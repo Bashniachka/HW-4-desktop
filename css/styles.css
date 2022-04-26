@@ -234,13 +234,21 @@ img {
 /* ----------------advantage---------------- */
 .advantage {
     background-color: var(--header-color);
+}
 
+.advantage-icon-bg {
+    width: 270px;
+    display: flex;
+    height: 120px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-background-color);
 }
 
 .advantage-list {
     display: flex;
 }
-
 
 .advantage-item:not(:first-child) {
     margin-left: 30px;
@@ -357,24 +365,29 @@ border-radius: 0px 0px 4px 4px;
 .team-soc-list {
 display: flex;
 justify-content: center;
+margin-bottom: 30px;
 }
 
 .team-soc-item +.team-soc-item{
     margin-left: 10px;
 }
 
-
 .team-soc-link {
-   width: 44px;
-   height: 44px;
-   align-items: center;
-   justify-content: center;
-   background-color: var(--main-background-color); 
-   border-radius: 50%;
-   display: flex;
-   fill:var(--color-icon) ;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main-background-color); 
+    border-radius: 50%;
+    color:var(--color-icon);
 }
 
+.team-soc-link :hover,
+.team-soc-link :focus{
+    background-color: var(--accent-color);
+    color: var(--main-background-color);
+}
 .team-soc-icon{
     fill:currentColor;
 }

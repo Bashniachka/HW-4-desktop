@@ -161,9 +161,10 @@ img {
     align-items: center;
 }
 
-.contact-icon{
+.contact-icon {
     fill: currentColor;
-    margin-right: 10px;}
+    margin-right: 10px;
+}
 
 .current {
     color: var(--accent-color)

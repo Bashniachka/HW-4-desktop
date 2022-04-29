@@ -491,10 +491,11 @@ margin-bottom: 0;
 }
 
 .footer-soc-title{
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 
 color: var(--header-color);
 margin-bottom: 20px;
@@ -528,15 +529,14 @@ margin-bottom: 20px;
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: var(--text-color); 
+        background-color: rgba(255, 255, 255, 0.1); 
         border-radius: inherit;
-        color:var(--background-footer-link-color);
+        fill:var(--header-color);
     }
     
     .footer-soc-item :hover,
     .footer-soc-item :focus{
         background-color: var(--accent-color);
-        color: var(--main-background-color);
     }
     
 
